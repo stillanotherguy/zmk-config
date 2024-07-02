@@ -53,7 +53,7 @@
 &kp GRAVE  &kp Q  &kp W  &kp E                &kp R            &kp T            &kp Y      &kp U             &kp I                 &kp O    &kp P     &kp MINUS
 &kp BSLH   &kp A  &kp S  &hml LEFT_CONTROL D  &hml LEFT_ALT F  &kp G            &kp H      &hmr RIGHT_ALT J  &hmr RIGHT_CONTROL K  &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C                &kp V            &kp B            &kp N      &kp M             &kp COMMA             &kp DOT  &kp FSLH  &kp RSHIFT
-                         &kp ESC              &lt 1 TAB        &kp BACKSPACE    &kp SPACE  &lt 1 ENTER       &to 1
+                         &kp ESC              &lt 4 TAB        &kp BACKSPACE    &kp SPACE  &lt 1 ENTER       &to 1
             >;
         };
 
@@ -87,6 +87,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &to 0   &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        nav_layer {
+            bindings = <
+&trans  &trans  &trans  &trans            &trans        &trans    &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
+&trans  &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans            &trans        &trans    &trans  &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &kp K_COPY     &trans
+                        &trans            &trans        &trans    &trans  &trans          &trans
             >;
         };
     };
