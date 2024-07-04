@@ -53,7 +53,7 @@
 &kp GRAVE  &kp Q  &kp W  &kp E                &kp R            &kp T            &kp Y      &kp U             &kp I                 &kp O    &kp P     &kp MINUS
 &kp BSLH   &kp A  &kp S  &hml LEFT_CONTROL D  &hml LEFT_ALT F  &kp G            &kp H      &hmr RIGHT_ALT J  &hmr RIGHT_CONTROL K  &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C                &kp V            &kp B            &kp N      &kp M             &kp COMMA             &kp DOT  &kp FSLH  &kp RSHIFT
-                         &kp ESC              &lt 4 TAB        &kp BACKSPACE    &kp SPACE  &lt 1 ENTER       &to 1
+                         &lt 3 ESC            &lt 4 TAB        &kp BACKSPACE    &kp SPACE  &lt 1 ENTER       &lt 2 DELETE
             >;
         };
 
@@ -65,19 +65,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp N6    &kp N7  &kp N8    &kp N9    &kp N0       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &to 3
-                             &to 0     &trans    &trans       &trans     &trans     &to 2
-            >;
-        };
-
-        numpad_layer {
-            bindings = <
-&bt BT_PRV  &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_UP      &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
-&bt BT_NXT  &trans  &kp LEFT_GUI    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_VOLUME_DOWN    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
-&bt BT_CLR  &trans  &trans          &trans            &trans        &kp C_MUTE           &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &to 2
-                                    &to 0             &trans        &trans               &trans           &trans  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS       &kp ASTRK          &kp LPAR       &kp RPAR  &kp EQUAL
+&trans  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans     &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &trans    &trans
+&trans  &trans    &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans       &trans     &trans         &trans             &trans         &trans    &trans
+                          &to 0             &trans             &trans       &trans     &trans         &trans
             >;
         };
 
@@ -87,6 +78,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &to 0   &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        numpad_layer {
+            bindings = <
+&bt BT_PRV  &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_UP      &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&bt BT_NXT  &trans  &kp LEFT_GUI    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_VOLUME_DOWN    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
+&bt BT_CLR  &trans  &trans          &trans            &trans        &kp C_MUTE           &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans
+                                    &to 0             &trans        &trans               &trans           &trans  &trans
             >;
         };
 
