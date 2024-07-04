@@ -59,10 +59,10 @@
 
         nav_layer {
             bindings = <
-&trans  &trans  &trans        &trans            &trans        &trans    &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
-&trans  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 0
-&trans  &trans  &trans        &trans            &trans        &trans    &trans  &kp LC(X)       &kp LC(C)       &kp LC(V)        &trans         &to 1
-                              &trans            &trans        &trans    &trans  &trans          &trans
+&trans  &trans  &trans        &trans            &trans        &trans    &trans     &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
+&trans  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 0
+&trans  &trans  &trans        &trans            &trans        &trans    &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(LS(Z))  &to 1
+                              &trans            &trans        &trans    &trans     &trans          &trans
             >;
         };
 
