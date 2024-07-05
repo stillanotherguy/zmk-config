@@ -59,19 +59,19 @@
 
         nav_layer {
             bindings = <
-&bt BT_PRV  &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_UP      &trans     &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
-&bt BT_NXT  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_VOLUME_DOWN    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 0
-&bt BT_CLR  &trans  &trans        &trans            &trans        &kp C_MUTE           &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(LS(Z))  &to 1
-                                  &trans            &trans        &trans               &trans     &trans          &trans
+&trans  &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_UP      &trans     &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
+&trans  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_VOLUME_DOWN    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 0
+&trans  &trans  &trans        &trans            &trans        &kp C_MUTE           &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(LS(Z))  &to 1
+                              &trans            &trans        &trans               &trans     &trans          &trans
             >;
         };
 
         numpad_layer {
             bindings = <
-&trans  &trans  &trans        &trans            &trans        &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
-&trans  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &to 0
-&trans  &trans  &trans        &trans            &trans        &trans    &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &to 2
-                              &trans            &trans        &trans    &trans           &trans  &trans
+&bt BT_PRV  &trans  &trans        &trans            &trans        &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&bt BT_NXT  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &to 0
+&bt BT_CLR  &trans  &trans        &trans            &trans        &trans    &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &to 2
+                                  &trans            &trans        &trans    &trans           &trans  &trans
             >;
         };
 
