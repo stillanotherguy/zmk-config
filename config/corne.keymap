@@ -142,10 +142,10 @@
 
         mac_symbol_layer {
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS       &kp ASTRK          &kp LPAR       &kp RPAR  &kp EQUAL
-&trans  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans     &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &trans    &trans
-&trans  &trans    &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans       &trans     &trans         &trans             &trans         &trans    &trans
-                          &trans            &trans             &trans       &trans     &trans         &trans
+&trans  &kp EXCL  &kp AT  &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp EQUAL
+&trans  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans     &kp RCTRL  &kp RGUI   &kp RALT  &trans    &trans
+&trans  &trans    &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans       &trans     &trans     &trans     &trans    &trans    &trans
+                          &trans            &trans             &trans       &trans     &trans     &trans
             >;
         };
 
