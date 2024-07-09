@@ -124,10 +124,10 @@
 
         mac_nav_layer {
             bindings = <
-&trans  &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT        &kp C_VOLUME_UP      &trans     &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
-&trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI      &kp LEFT_CONTROL  &kp C_VOLUME_DOWN    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
-&trans  &trans  &trans        &trans            &trans            &kp C_MUTE           &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LS(LG(Z))  &trans
-                              &trans            &trans            &trans               &trans     &trans          &trans
+&trans  &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT        &kp C_VOLUME_UP      &kp RG(LEFT_BRACKET)   &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
+&trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI      &kp LEFT_CONTROL  &kp C_VOLUME_DOWN    &kp RG(RIGHT_BRACKET)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans        &trans            &trans            &kp C_MUTE           &kp LG(Z)              &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LS(LG(Z))  &trans
+                              &trans            &trans            &trans               &trans                 &trans          &trans
             >;
         };
 
