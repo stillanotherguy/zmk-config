@@ -51,6 +51,11 @@
             bindings = <&to 0>;
             key-positions = <37 41>;
         };
+
+        Capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <24 35>;
+        };
     };
 
     keymap {
