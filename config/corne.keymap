@@ -81,7 +81,7 @@
 
         mac_numpad_layer {
             bindings = <
-&bt BT_PRV  &trans  &trans    &trans    &trans     &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&bt BT_PRV  &trans  &trans    &trans    &trans     &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
 &bt BT_NXT  &trans  &kp LALT  &kp LGUI  &kp LCTRL  &trans    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
 &bt BT_CLR  &trans  &trans    &trans    &trans     &trans    &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans
                               &trans    &trans     &trans    &trans           &trans  &trans
@@ -132,7 +132,7 @@
 
         numpad_layer {
             bindings = <
-&bt BT_PRV  &trans  &trans        &trans            &trans        &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&bt BT_PRV  &trans  &trans        &trans            &trans        &trans    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
 &bt BT_NXT  &trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans    &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
 &bt BT_CLR  &trans  &trans        &trans            &trans        &trans    &kp N0           &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans
                                   &trans            &trans        &trans    &trans           &trans  &trans
