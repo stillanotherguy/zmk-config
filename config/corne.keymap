@@ -64,10 +64,10 @@
 
         mac_default_layer {
             bindings = <
-&kp GRAVE  &kp Q  &kp W            &kp E            &kp R                &kp T                &kp Y      &kp U                 &kp I             &kp O             &kp P     &kp MINUS
-&kp BSLH   &kp A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_CONTROL F  &kp G                &kp H      &hmr RIGHT_CONTROL J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X            &kp C            &kp V                &kp B                &kp N      &kp M                 &kp COMMA         &kp DOT           &kp FSLH  &kp RSHIFT
-                                   &lt 2 ESC        &lt 1 TAB            &kp LA(BACKSPACE)    &kp SPACE  &lt 3 ENTER           &lt 4 DELETE
+&kp GRAVE  &kp Q  &kp W            &kp E            &kp R                &kp T            &kp Y      &kp U                 &kp I             &kp O             &kp P     &kp MINUS
+&kp BSLH   &kp A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_CONTROL F  &kp G            &kp H      &hmr RIGHT_CONTROL J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X            &kp C            &kp V                &kp B            &kp N      &kp M                 &kp COMMA         &kp DOT           &kp FSLH  &kp RSHIFT
+                                   &lt 2 ESC        &lt 1 TAB            &kp BACKSPACE    &kp SPACE  &lt 3 ENTER           &lt 4 DELETE
             >;
         };
 
